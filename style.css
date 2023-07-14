@@ -1,0 +1,218 @@
+body {
+    background-color: lightgrey;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 0%;
+    height: 4%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav ul a {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav ul li {
+    padding: 2%;
+}
+
+.search {
+    border-radius: 40px;
+    height: 2rem;
+    margin: 2.5% 2% 0% 2%;
+    width: 14%;
+    padding-inline: 1%;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+.firstsectionleftside {
+
+    width: 50%;
+    margin-top: 12%;
+    padding-left: 5%;
+}
+
+.primary-image {
+    scale: 110%;
+    width: 50%;
+    margin-top: 10%;
+    justify-self: right;
+
+}
+
+.landingheader {
+    padding-bottom: 3%;
+}
+
+/*.firstsection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.firstsectionleftside {
+    grid-column: 1;
+    flex-direction: column;
+    padding-left: 10%;
+    margin-top: 0;
+    vertical-align: top
+}
+
+.primary-image {
+    grid-column: 2;
+    justify-content: center;
+    padding: 20%;
+}*/
+
+h1 {
+    color: rgb(183, 183, 183);
+    font-family: 'windsong';
+    font-size: 80px;
+}
+
+h2 {
+    color: rgb(249, 247, 247);
+}
+
+.firstparagraph {
+    color: rgb(255, 255, 255);
+    width: 60%;
+    padding-top: 5%;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    box-shadow: inset 3px 2px 15px -5px #252525;
+}
+
+.threeproducts img {
+    width: 350px;
+    height: auto;
+}
+
+
+footer {
+    padding: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.threeproducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 420px;
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+.image-container {
+    align-items: center;
+}
+
+.image-container h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 80px;
+}
+
+.image-container p {
+    align-items: left;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 50px;
+
+}
+
+.image-container button {
+    justify-content: center;
+    /*This is not working*/
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.image-item {
+    display: f;
+    text-align: center;
+    flex: 1;
+}
+
+a {
+    color: rgb(2, 2, 2);
+}
+
+.footer-header {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 1000px;
+}
